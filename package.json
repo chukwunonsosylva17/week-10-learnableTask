@@ -1,0 +1,15 @@
+{
+  "name": "week-10-learnabletask",
+  "version": "1.0.0",
+  "description": "This is a command-line Todo List application built using TypeScript which is contained in the source folder. The application allows users to efficiently manage their tasks by adding, updating, marking as completed, removing, and filtering tasks.",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
+}
