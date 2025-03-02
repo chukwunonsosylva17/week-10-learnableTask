@@ -80,19 +80,20 @@ interface TodoItem {
   
   // Example usage:
   const todoList = new TodoList();
-  
+  // Add some todos task with due date to the list 
   todoList.addTodo("Learn Coding", new Date("2025-02-01"));
   todoList.addTodo("Build a Todo App", new Date("2025-03-05"));
   todoList.addTodo("Attend SOTU Meeting", new Date("2025-03-02"));
   todoList.addTodo("Review weekly reports", new Date("2025-03-10"));
   todoList.addTodo("Prepare for a Coding Interview", new Date("2025-03-20"));
   
+  // List all todos
   todoList.listTodos();
   console.log(todoList.listTodos());
   
+  // List all completed todos
   todoList.completeTodo(1);
   todoList.completeTodo(3);
-  
    console.log(todoList.listTodos("completed"));
   
 
